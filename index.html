@@ -5,23 +5,28 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Rozetka_Rozhkova</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Gugi&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
 	<!-- шапка -->
-	<header>
-    <nav>
-			<a href="./index.html"><img src="./img/logo_rozetka_header.svg" alt="LOGO"></a>
-			<ul>
-				<li><a href="./index.html">Головна</a></li>
-				<li><a href="">Контакти</a></li>
-				<li><a href="">Каталог</a></li>
-				<li><a href="">Питання</a></li>
+	<header class="container header">
+    <nav class="nav">
+			<a href="./index.html"><img src="./img/logo_rozetka_header.svg" alt="LOGO" width="200px" height="47px"></a>
+			<ul class="list ul-header">
+				<li class="li-header"><a href="./index.html" class="a-header">Головна</a></li>
+				<li class="li-header"><a href="#contacts" class="a-header">Контакти</a></li>
+				<li class="li-header"><a href="#catalogue" class="a-header">Каталог</a></li>
+				<li class="li-header"><a href="#questions" class="a-header">Питання</a></li>
 			</ul>
+			<button class="button-header">Кошик
+				<img src="./img/bin.svg" alt="bin" width="30px" height="30px" class="button-header-img">
+			</button>
 		</nav>
-		<button>Кошик</button>
 	</header>
-	<main>
+	<main class="container">
 		<!-- перша частина героя -->
 		<section>
 			<div>
@@ -43,9 +48,9 @@
 			</div>
 		</section>
 		<!-- каталог ноутбуків -->
-		<section>
+		<section id="catalogue">
 			<h1>Ноутбуки Lenovo серії X</h1>
-			<ul>
+			<ul class="list">
 				<li>
 					<div>
 						<img src="./img/notebook_one.jpg" alt="ThinkPad X13 Gen 3 ">
@@ -78,11 +83,11 @@
 			</ul>
 		</section>
 		<!-- питання -->
-		<section>
+		<section id="questions">
 			<h1>Важлива інформація стосовно</h1>
 			<div>
 				<img src="./img/img_three.jpg" alt="notebook">
-				<ul>
+				<ul class="list">
 					<li>Ціни</li>
 					<li>Гарантії</li>
 					<li>Обмеження</li>
@@ -91,9 +96,9 @@
 			</div>
 		</section>
 		<!-- соц мережі -->
-		<section>
+		<section id="contacts">
 			<h2>Зв’яжіться з нами:</h2>
-			<ul>
+			<ul class="list">
 				<li>
 					<a href="">
 						<svg width="78px" height="78px">
@@ -133,7 +138,7 @@
 		</section>
 	</main>
 	<!-- футер -->
-	<footer>
+	<footer class="container">
 		<a href="./index.html"><img src="./img/logo_footer.svg" alt="LOGO"></a>
 		<div>
 			<div>

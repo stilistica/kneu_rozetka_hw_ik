@@ -1,0 +1,113 @@
+
+:root {
+	--white: #fff;
+	--black: #000;
+	--green: #05BC52;
+	--hover-green: #0e9f4b;
+}
+
+body {
+		margin: 0px;
+background-color: var(--white);
+color: var(--black);
+
+font-family: "Gugi", sans-serif;
+}
+
+/* робота зі списками */
+.list {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+a,
+button {
+	cursor: pointer;
+}
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1540px;
+	padding-left: 30px;
+	padding-right: 30px;
+	/* outline: 2px solid tomato; */
+}
+
+/* header */
+.header {
+	height: 120px;
+	display: flex;
+	align-items: center;
+	box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+	
+}
+.nav {
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.ul-header {
+	display: flex;
+	margin-left: 140px;
+}
+
+.ul-header .li-header+.li-header {
+	margin-left: 35px;
+}
+
+.a-header {
+  text-decoration: none;
+  color: var(--black);
+
+	font-family: 'Inter';
+		font-style: normal;
+		font-weight: 300;
+		font-size: 24px;
+		line-height: 29px;
+
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.a-header:hover,
+.a-header:focus {
+  color: var(--green);
+}
+
+.button-header {
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	margin-left: 187px;
+	width: 153px;
+	height: 43px;
+	background: var(--green);
+	border-radius: 25px;
+	border: 0;
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 29px;
+
+	transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button-header-img {
+	width: 30px;
+}
+
+.button-header:hover,
+.button-header:focus {
+	background: var(--hover-green);
+}
