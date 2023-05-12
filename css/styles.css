@@ -1,108 +1,105 @@
-
 :root {
-	--white: #fff;
-	--black: #000;
-	--green: #05BC52;
-	--hover-green: #0e9f4b;
+  --white: #fff;
+  --black: #000;
+  --green: #05bc52;
+  --hover-green: #0e9f4b;
 }
 
 body {
-		margin: 0px;
-background-color: var(--white);
-color: var(--black);
+  margin: 0px;
+  background-color: var(--white);
+  color: var(--black);
 
-font-family: "Gugi", sans-serif;
+  font-family: "Gugi", sans-serif;
 }
 
 /* робота зі списками */
 .list {
-	padding: 0;
-	margin: 0;
-	list-style: none;
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
 
 img {
-	/* display: block; */
-	width: 100%;
-	height: auto;
-	background-size: auto;
+  /* display: block; */
+  width: 100%;
+  height: auto;
+  background-size: auto;
 }
 
 a,
 button {
-	cursor: pointer;
+  cursor: pointer;
 }
 h1 {
-	margin: 0;
-	margin-bottom: 30px;
-		font-style: normal;
-		font-weight: 400;
-		font-size: 40px;
-		line-height: 50px;
+  margin: 0;
+  margin-bottom: 30px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 50px;
 }
 p {
-	margin: 0;
+  margin: 0;
 }
 .container {
-	/* margin-left: auto;
+  /* margin-left: auto;
 	margin-right: auto;
 	width: 100%; */
-	/* max-width: 1540px; */
-	/* padding-left: 30px;
+  /* max-width: 1540px; */
+  /* padding-left: 30px;
 	padding-right: 30px; */
-	/* outline: 2px solid tomato; */
-	width: 100%;
-		max-width: 1200px;
-		/* Set a maximum width for the container */
-		margin-left: auto;
-		margin-right: auto;
-		padding-left: 20px;
-		padding-right: 20px;
+  /* outline: 2px solid tomato; */
+  width: 100%;
+  max-width: 1200px;
+  /* Set a maximum width for the container */
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 /* header */
 .header {
-	min-width: 1150px;
-	height: 120px;
-	display: flex;
-		margin-left: auto;
-			margin-right: auto;
-	justify-content: space-between;
-	align-items: center;
-	text-align: center;
-	align-items: center;
-	box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
-	
+  min-width: 1150px;
+  height: 120px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  align-items: center;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
 }
 .nav {
-	min-width: 1150px;
-	margin-left: auto;
-	margin-right: auto;
-	padding-left: 15px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	text-align: center;
+  min-width: 1150px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
 }
 .ul-header {
-	display: flex;
-	/* margin-left: 200px; */
+  display: flex;
+  /* margin-left: 200px; */
 }
 
-.ul-header .li-header+.li-header {
-	margin-left: 35px;
+.ul-header .li-header + .li-header {
+  margin-left: 35px;
 }
 
 .a-header {
   text-decoration: none;
   color: var(--black);
 
-	font-family: 'Inter';
-		font-style: normal;
-		font-weight: 300;
-		font-size: 24px;
-		line-height: 29px;
-
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -112,219 +109,253 @@ p {
 }
 
 .button-header {
-	justify-content: center;
-	display: flex;
-	align-items: center;
-	/* margin-left: 200px; */
-	width: 153px;
-	height: 43px;
-	background: var(--green);
-	border-radius: 25px;
-	border: 0;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  /* margin-left: 200px; */
+  width: 153px;
+  height: 43px;
+  background: var(--green);
+  border-radius: 25px;
+  border: 0;
 
-	font-family: 'Inter';
-	font-style: normal;
-	font-weight: 600;
-	font-size: 24px;
-	line-height: 29px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
 
-	transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-header-img {
-	width: 30px;
+  width: 30px;
 }
 
 .button-header:hover,
 .button-header:focus {
-	background: var(--hover-green);
+  background: var(--hover-green);
 }
 
 /* -------------------one-hero----------------- */
 
 .one-hero {
-	display: flex;
-	/* min-width: 100px; */
+  display: flex;
+  /* min-width: 100px; */
 }
 
 .img-one {
-	/* width: 100%; */
-	margin-right: 0;
-	padding-left: 20px;
-	min-width: 450px;
-	max-width: 850px; 
-	/* max-width: 500px; */
-		height: 700px;
-		/* background-size: auto; */
+  /* width: 100%; */
+  margin-right: 0;
+  padding-left: 20px;
+  min-width: 450px;
+  max-width: 850px;
+  /* max-width: 500px; */
+  height: 700px;
+  /* background-size: auto; */
 }
 .div-one {
-	min-width: 500px;
-	padding-left: 90px;
-	padding-top: 100px;
-
+  min-width: 500px;
+  padding-left: 90px;
+  padding-top: 100px;
 }
 .div-hero-one {
-	max-width: 524px;
-	margin-right: 0px;
-	/* margin-top: 100px; */
-	/* margin-left: 0px; */
+  max-width: 524px;
+  margin-right: 0px;
+  /* margin-top: 100px; */
+  /* margin-left: 0px; */
 }
 .div-hero-one p {
-	margin-bottom: 30px;
+  margin-bottom: 30px;
 
-	font-weight: 400;
-		font-size: 24px;
-		line-height: 30px;
-
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
 }
 .div-hero-one button {
-		max-width: 524px;
-		height: 73px;
-		padding: 17px 30px;
+  max-width: 524px;
+  height: 73px;
+  padding: 17px 30px;
 
-	font-weight: 400;
-		font-size: 32px;
-		line-height: 40px;
-		text-align: center;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
 
-		background: rgba(5, 188, 82, 0.78);
-		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-		border-radius: 25px;
-		border: 0;
+  background: rgba(5, 188, 82, 0.78);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  border: 0;
 
-		transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
-		}
-	
-				.div-hero-one button:hover,
-				.div-hero-one button:focus {
-			background: var(--hover-green);
-		}
+  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.div-hero-one button:hover,
+.div-hero-one button:focus {
+  background: var(--hover-green);
+}
 
 .img-two {
-	/* width: 100%; */
-	min-height: 400px;
-	max-width: 611px;
-	/* min-width: 400px; */
-	height: 700px;
-	margin-left: 0px;
-	padding-right: 20px;
-	background-size: auto;
+  /* width: 100%; */
+  min-height: 400px;
+  max-width: 611px;
+  /* min-width: 400px; */
+  height: 700px;
+  margin-left: 0px;
+  padding-right: 20px;
+  background-size: auto;
 }
 
 .div-hero-two {
-	margin-right: 0px;
-	text-align: right;
-	margin-top: 85px;
+  margin-right: 0px;
+  text-align: right;
+  margin-top: 85px;
 }
-
 
 .div-hero-two p {
-	font-weight: 400;
-		font-size: 28px;
-		line-height: 35px;
-		text-align: right;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 35px;
+  text-align: right;
 }
+.bgrcolocata-pad {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
 .bgrcolocata {
-	background-color: var(--green);
-	width: 100%;
-		padding-top: 100px;
-		padding-bottom: 100px;
-	box-shadow: inset 0px 4px 125px rgba(0, 0, 0, 0.25);
+  background-color: var(--green);
+  width: 100%;
+
+  box-shadow: inset 0px 4px 125px rgba(0, 0, 0, 0.25);
 }
 .catalogue {
   display: block;
-	text-align: center;
-	justify-content: center;
-	width: 100%;
-	max-width: 1600px;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 1600px;
 }
 
 .catalogue h1 {
-margin-bottom: 45px;
-
+  margin-bottom: 45px;
 }
 
 .catalogue img {
-	width: 342px;
-		height: 283px;
+  width: 342px;
+  height: 283px;
 }
 
 .cat-ul-three {
-	display: flex;
-	justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
-.cat-ul-three .cat-li-three+.cat-li-three {
-	margin-left: 35px;
+.cat-ul-three .cat-li-three + .cat-li-three {
+  margin-left: 35px;
 }
 .cat-li-three {
-	background-color: var(--white);
-	width: 342px;
-	height: 750px;
-	box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.3);
+  background-color: var(--white);
+  width: 342px;
+  height: 750px;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.3);
 }
 
 .note-div p {
-	font-weight: 400;
-		font-size: 40px;
-		line-height: 50px;
-		text-align: center;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
 
-		margin-bottom: 28px;
+  margin-bottom: 28px;
 }
 
 .note-div ul {
-margin: 0 17px 11px 17px;
-text-align: left;
-	font-weight: 400;
-		font-size: 24px;
-		line-height: 30px;
-		padding-top: 50px;
+  margin: 0 17px 11px 17px;
+  text-align: left;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  padding-top: 50px;
 }
-
 
 .questions h1 {
-	margin-top: 100px;
-	margin-bottom: 30px;
-	text-align: center;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  text-align: center;
 
-	font-family: 'Gugi';
-		font-weight: 400;
-		font-size: 40px;
-		line-height: 50px;
+  font-family: "Gugi";
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 0.1em;
 }
 .questions div {
-	display: flex;
+  display: flex;
 }
 .questions img {
-	padding-left: 25px;
-	width: 650px;
-	height: 625px;
+  padding-left: 25px;
+  width: 650px;
+  height: 625px;
 }
 .questions ul {
-	padding-top: 30px;
+  padding-top: 30px;
 }
 
 .questions button {
-width: 384px;
-	height: 57px;
-	margin-bottom: 25px;
+  width: 384px;
+  height: 57px;
+  margin-bottom: 25px;
 
-	background: var(--green);
-	box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.25);
-	border-radius: 25px;
-	border: 0px;
+  background: var(--green);
+  box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  border: 0px;
 
-	font-family: 'Grape Nuts';
-		font-weight: 400;
-		font-size: 32px;
-		line-height: 39px;
-		letter-spacing: 0.1em;
-		color: var(--white);
-		transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
-		}
-	
-		.questions button:hover,
-		.questions button:focus {
-			background: var(--hover-green);
-		}
+  font-family: "Grape Nuts";
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  letter-spacing: 0.1em;
+  color: var(--white);
+  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.questions button:hover,
+.questions button:focus {
+  background: var(--hover-green);
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+		padding-left: 400px;
+	padding-right: 400px;
+}
+.contacts h2 {
+	margin: 0;
+	font-weight: 400;
+font-size: 32px;
+line-height: 40px;
+letter-spacing: 0.1em;
+color: var(--white);
+}
+.contacts ul {
+  display: flex;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+.contacts ul svg:last-child {
+	margin-right: 49px;
+}
+.contacts ul svg {
+	fill: var(--white);
+
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contacts ul svg:hover,
+.contacts ul svg:focus {
+  fill: #e2e2e2;
+}
