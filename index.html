@@ -12,7 +12,7 @@
 </head>
 <body>
 	<!-- шапка -->
-	<header class="container header">
+	<header class="header">
     <nav class="nav">
 			<a href="./index.html"><img src="./img/logo_rozetka_header.svg" alt="LOGO" width="200px" height="47px"></a>
 			<ul class="list ul-header">
@@ -26,20 +26,22 @@
 			</button>
 		</nav>
 	</header>
-	<main class="container">
+	<main>
 		<!-- перша частина героя -->
-		<section>
-			<div>
+		<section class="one-hero container">
+			<div class="div-one">
+			<div class="div-hero-one">
 				<h1>Ноутбук Lenovo ThinkPad Серія Х</h1>
 				<p>Пристрої серії X відрізняються тривалим часом автономної роботи, відомою надійністю ThinkPad, високою продуктивністю і компактністю, тому вони легко помістяться в дорожній сумці або на столику крісла в салоні літака. Серія Х - це наші найменші ноутбуки, проте вони вражають воєю потужністю. Вони стануть відмінними супутниками у ділових поїздках. Переконайся в цьому.</p>
 				<button>Переглянути ноутбуки серії X</button>
 			</div>
-			<img src="./img/img_one.jpg" alt="img_one">
+			</div>
+			<img src="./img/img_one.jpg" alt="img_one" class="img-one">
 		</section>
 		<!-- друга частина героя -->
-		<section>
-			<div>
-				<img src="./img/img_two.jpg" alt="img_two">
+		<section class="one-hero container">
+			<img src="./img/img_two.jpg" alt="img_two" class="img-two">
+			<div class="div-hero-one div-hero-two">
 				<h1>Готовність до подорожей</h1>
 				<p>Пристрої ThinkPad серії X створені забезпечувати портативність, проте не дозволяй їх маленьким розмірам ввести тебе
 					в оману. Розроблені з використанням новітніх технологій Intel® і AMD, ці компактні ПК з діагоналлю 13 дюймів можуть
@@ -48,42 +50,45 @@
 			</div>
 		</section>
 		<!-- каталог ноутбуків -->
-		<section id="catalogue">
-			<h1>Ноутбуки Lenovo серії X</h1>
-			<ul class="list">
-				<li>
-					<div>
-						<img src="./img/notebook_one.jpg" alt="ThinkPad X13 Gen 3 ">
-						<p>ThinkPad X13 Gen 3</p>
-						<ul>
-							<li>Платформа Intel vPro® з процесорами Intel® Core™12-го покоління</li>
-							<li>Компактний та потужний 13.3-дюймовий бізнес-ноутбук</li>
-						</ul>
-					</div>
-				</li>
-				<li>
-					<div>
-						<img src="./img/notebook_two.jpg" alt="ThinkPad X13 Yoga Gen 3 ">
-						<p>ThinkPad X13 Yoga Gen 3</p>
-						<ul>
-							<li>Розміщений у відсіку корпусу стилус для створення нотаток, малювання та підписання документів прямо на екрані</li>
-						</ul>
-					</div>
-				</li>
-				<li>
-					<div>
-						<img src="./img/notebook_three.jpg" alt="ThinkPad X12 Detachable">
-						<p>ThinkPad X12 Detachable</p>
-						<ul>
-							<li>Технології ШІ та вбудовані засоби біометричної безпеки</li>
-							<li>Дві веб-камери (основна та фронтальна) зі шторкою на фронтальній камері</li>
-						</ul>
-					</div>
-				</li>
-			</ul>
-		</section>
+		<section id="catalogue" class="bgrcolocata">
+			<div class="one-hero catalogue container">
+				<h1>Ноутбуки Lenovo серії X</h1>
+				<ul class="list cat-ul-three">
+					<li class="cat-li-three">
+						<div>
+							<img src="./img/notebook_one.jpg" alt="ThinkPad X13 Gen 3 ">
+							<p>ThinkPad X13 Gen 3</p>
+							<ul>
+								<li>Платформа Intel vPro® з процесорами Intel® Core™12-го покоління</li>
+								<li>Компактний та потужний 13.3-дюймовий бізнес-ноутбук</li>
+							</ul>
+						</div>
+					</li>
+					<li class="cat-li-three">
+						<div>
+							<img src="./img/notebook_two.jpg" alt="ThinkPad X13 Yoga Gen 3 ">
+							<p>ThinkPad X13 Yoga Gen 3</p>
+							<ul>
+								<li>Розміщений у відсіку корпусу стилус для створення нотаток, малювання та підписання документів прямо на
+									екрані</li>
+							</ul>
+						</div>
+					</li>
+					<li class="cat-li-three">
+						<div>
+							<img src="./img/notebook_three.jpg" alt="ThinkPad X12 Detachable">
+							<p>ThinkPad X12 Detachable</p>
+							<ul>
+								<li>Технології ШІ та вбудовані засоби біометричної безпеки</li>
+								<li>Дві веб-камери (основна та фронтальна) зі шторкою на фронтальній камері</li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+				</section>
+			</div>
 		<!-- питання -->
-		<section id="questions">
+		<section id="questions container">
 			<h1>Важлива інформація стосовно</h1>
 			<div>
 				<img src="./img/img_three.jpg" alt="notebook">
@@ -96,7 +101,7 @@
 			</div>
 		</section>
 		<!-- соц мережі -->
-		<section id="contacts">
+		<section id="contacts container">
 			<h2>Зв’яжіться з нами:</h2>
 			<ul class="list">
 				<li>
