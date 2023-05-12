@@ -191,12 +191,19 @@ p {
 		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 		border-radius: 25px;
 		border: 0;
-}
+
+		transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+		}
+	
+				.div-hero-one button:hover,
+				.div-hero-one button:focus {
+			background: var(--hover-green);
+		}
 
 .img-two {
 	/* width: 100%; */
 	min-height: 400px;
-	/* max-width: 700px; */
+	max-width: 611px;
 	/* min-width: 400px; */
 	height: 700px;
 	margin-left: 0px;
@@ -209,9 +216,8 @@ p {
 	text-align: right;
 	margin-top: 85px;
 }
-.div-hero-two h1 {
 
-}
+
 .div-hero-two p {
 	font-weight: 400;
 		font-size: 28px;
@@ -221,6 +227,8 @@ p {
 .bgrcolocata {
 	background-color: var(--green);
 	width: 100%;
+		padding-top: 100px;
+		padding-bottom: 100px;
 	box-shadow: inset 0px 4px 125px rgba(0, 0, 0, 0.25);
 }
 .catalogue {
@@ -233,7 +241,7 @@ p {
 
 .catalogue h1 {
 margin-bottom: 45px;
-margin-top: 100px;
+
 }
 
 .catalogue img {
@@ -243,6 +251,7 @@ margin-top: 100px;
 
 .cat-ul-three {
 	display: flex;
+	justify-content: center;
 }
 
 .cat-ul-three .cat-li-three+.cat-li-three {
@@ -251,6 +260,71 @@ margin-top: 100px;
 .cat-li-three {
 	background-color: var(--white);
 	width: 342px;
-	height: 706px;
+	height: 750px;
 	box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.3);
 }
+
+.note-div p {
+	font-weight: 400;
+		font-size: 40px;
+		line-height: 50px;
+		text-align: center;
+
+		margin-bottom: 28px;
+}
+
+.note-div ul {
+margin: 0 17px 11px 17px;
+text-align: left;
+	font-weight: 400;
+		font-size: 24px;
+		line-height: 30px;
+		padding-top: 50px;
+}
+
+
+.questions h1 {
+	margin-top: 100px;
+	margin-bottom: 30px;
+	text-align: center;
+
+	font-family: 'Gugi';
+		font-weight: 400;
+		font-size: 40px;
+		line-height: 50px;
+}
+.questions div {
+	display: flex;
+}
+.questions img {
+	padding-left: 25px;
+	width: 650px;
+	height: 625px;
+}
+.questions ul {
+	padding-top: 30px;
+}
+
+.questions button {
+width: 384px;
+	height: 57px;
+	margin-bottom: 25px;
+
+	background: var(--green);
+	box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.25);
+	border-radius: 25px;
+	border: 0px;
+
+	font-family: 'Grape Nuts';
+		font-weight: 400;
+		font-size: 32px;
+		line-height: 39px;
+		letter-spacing: 0.1em;
+		color: var(--white);
+		transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+		}
+	
+		.questions button:hover,
+		.questions button:focus {
+			background: var(--hover-green);
+		}
