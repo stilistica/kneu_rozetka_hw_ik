@@ -330,16 +330,14 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-		padding-left: 400px;
-	padding-right: 400px;
 }
 .contacts h2 {
-	margin: 0;
-	font-weight: 400;
-font-size: 32px;
-line-height: 40px;
-letter-spacing: 0.1em;
-color: var(--white);
+  margin: 0;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: 0.1em;
+  color: var(--white);
 }
 .contacts ul {
   display: flex;
@@ -347,10 +345,10 @@ color: var(--white);
   padding-bottom: 17px;
 }
 .contacts ul svg:last-child {
-	margin-right: 49px;
+  margin-right: 49px;
 }
 .contacts ul svg {
-	fill: var(--white);
+  fill: var(--white);
 
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -358,4 +356,33 @@ color: var(--white);
 .contacts ul svg:hover,
 .contacts ul svg:focus {
   fill: #e2e2e2;
+}
+
+.footer {
+  padding-top: 30px;
+	padding-bottom: 45px;
+  display: flex;
+  justify-content: space-between;
+}
+.siv-p-footer {
+  padding-top: 25px;
+}
+.ul-div-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 53px;
+}
+
+.ul-div-footer p,
+.siv-p-footer p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+}
+.ul-footer {
+	margin: 0;
+	font-weight: 400;
+font-size: 24px;
+line-height: 30px;
+
 }
